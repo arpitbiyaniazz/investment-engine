@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-finance-dark text-gray-200 antialiased;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-finance-panel/80 backdrop-blur-md border border-white/5 rounded-xl;
+  }
+}
